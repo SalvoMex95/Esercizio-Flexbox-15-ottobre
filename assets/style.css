@@ -1,0 +1,314 @@
+body {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Helvetica, sans-serif;
+}
+
+body p {
+    color: grey;
+}
+
+main {
+    margin-top: 5vh;
+    margin-left: 15%;
+    display: flex;
+}
+
+#nav-bar {
+    width: 100%;
+    height: 100%;
+    box-shadow: 5px 0px 15px 0px rgba(0, 0, 0, 0.10);
+    display: flex;
+    justify-content: space-around;
+    gap: 220px;
+    cursor: pointer;
+}
+
+.main-logo {
+    max-width: 10%;
+    padding: 15px;
+    height: 100%;
+    align-self: center;
+}
+
+.nav-icons {
+    display: flex;
+}
+
+ion-icon {
+    font-size: 20px;
+    width: 50px;
+    align-self: center;
+}
+
+button {
+    width: 200px;
+    height: 50%;
+    border-radius: 40px;
+    border: 1px solid rgb(90, 90, 90);
+    text-decoration: none;
+    align-self: center;
+    font-size: 17px;
+}
+
+.user-image {
+    padding: 8px;
+    width: 50px;
+    height: 50px;
+    align-self: center;
+}
+
+.title {
+    max-width: 90%;
+    display: flex;
+    justify-content: flex-start;
+    gap: 15px;
+    border-bottom: 2px solid rgba(128, 128, 128, 0.267);
+    margin-bottom: 25px;
+}
+
+.title h4:hover {
+    color: #000;
+    font-weight: bold;
+    border-bottom: 2px solid #000;
+    margin-bottom: -2px;
+}
+
+.article-writer {
+    margin-top: 30px;
+    display: flex;
+    gap: 6px;
+}
+
+.article-info {
+    width: 70%;
+}
+
+.article-info p {
+    color: grey;
+    margin-bottom: auto;
+}
+
+.image-writer {
+    align-self: center;
+    width: 20px;
+    height: 20px;
+    border-radius: 5px;
+}
+
+.article-writer {
+    margin-top: 0;
+    margin-bottom: 12px;
+    display: flex;
+    align-items: center;
+    gap: 8px;
+}
+
+.article-writer p {
+    margin: 0;
+    font-size: 14px;
+    color: black;
+}
+
+h2 {
+    margin: 0px;
+}
+
+.article-content {
+    max-width: 90%;
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    gap: 30px;
+    margin-top: 35px;
+}
+
+.article-data {
+    display: flex;
+    gap: 10px;
+    margin-top: 5px;
+}
+
+.article-data p {
+    font-size: 13px;
+
+}
+
+.article-data :nth-child(2) {
+
+    background-color: rgba(94, 90, 90, 0.075);
+    border-radius: 10px;
+    padding-left: 10px;
+    padding-right: 10px;
+}
+
+.icons {
+    display: flex;
+    justify-content: flex-end;
+    position: relative;
+    left: 20px;
+    bottom: 12px;
+}
+
+.image-article {
+    object-fit: cover;
+    object-position: center;
+    width: 200px;
+    height: 140px;
+}
+
+#column-left {
+    width: 55%;
+    cursor: pointer;
+}
+
+#column-right {
+    width: 38%;
+    border-left: 1px solid rgba(128, 128, 128, 0.301);
+    cursor: pointer;
+}
+
+#social-box-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 25px;
+    margin-right: 80px;
+    margin-top: 20px;
+}
+
+#button-twitter {
+    align-content: center;
+}
+
+#social-box {
+    text-align: center;
+}
+
+.image-social {
+
+    width: 30px;
+    height: 30px;
+}
+
+.icon-social {
+
+    width: 25px;
+    height: 30px;
+    color: grey;
+}
+
+button {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 5px;
+    cursor: pointer;
+}
+
+#social-box-container a {
+    color: grey;
+}
+
+#social-box-container p {
+    margin: 0;
+    max-width: 280px;
+    text-align: center;
+}
+
+#topic {
+    margin-top: 30px;
+    margin-left: 70px;
+}
+
+#topic hr {
+    display: inline-block;
+    width: 72%;
+}
+
+#topic h3 {
+    margin-top: 50px;
+
+}
+
+#topic-options {
+    display: flex;
+    flex-wrap: wrap balance;
+    gap: 15px;
+    max-width: 400px;
+}
+
+#topic-options button {
+    background-color: rgba(128, 128, 128, 0.178);
+    border: none;
+    width: 100px;
+    padding: 10px;
+    cursor: pointer;
+}
+
+#follow {
+    margin-top: 50px;
+    margin-left: 70px;
+}
+
+#follow h3 {
+    margin: 0px;
+}
+
+.image-follow {
+
+    width: 50px;
+    height: 50px;
+}
+
+.follow-info {
+    display: flex;
+    gap: 30px;
+    align-items: center;
+}
+
+.follow-info button {
+
+    width: 80px;
+    padding: 8px;
+}
+
+.speaker {
+    width: 200px;
+}
+
+.speaker h4 {
+    margin-bottom: 0;
+}
+
+.speaker p {
+
+    font-size: 13px;
+    color: gray;
+}
+
+#recently-saved {
+    margin-left: 70px;
+    max-width: 300px;
+
+}
+
+#recently-saved h4 {
+    margin-bottom: 0;
+}
+
+footer {
+    margin-top: 50px;
+    max-width: 350px;
+    margin-left: 55px;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+footer a {
+    color: grey;
+    text-decoration: none;
+    margin: 10px;
+
+}
